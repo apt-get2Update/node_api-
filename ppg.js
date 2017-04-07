@@ -1,0 +1,62 @@
+ var ppg=[{
+		id:2,
+		name:'math',
+	
+	lessons:[{
+		id:1,
+		name:'algebra',
+		periods:18,
+		volume:1
+	},{
+		id:2,
+		name:'arithmetic',
+		periods:18,
+		volume:2
+	},{
+		id:3,
+		name:'statistic',
+		periods:18,
+		volume:1
+	}]	
+},{
+		id:1,
+		name:'english',
+	
+	lessons:[{
+		id:4,
+		name:'poem',
+		periods:18,
+		volume:1
+	},{
+		id:5,
+		name:'dramma',
+		periods:18,
+		volume:2
+	},{
+		id:6,
+		name:'grammer',
+		periods:18,
+		volume:1
+	}]	
+},{
+		id:3,
+		name:'science',	
+	lessons:[{
+		id:7,
+		name:'l1',
+		periods:18,
+		volume:1
+	},{
+		id:8,
+		name:'l2',
+		periods:18,
+		volume:2
+	},{
+		id:9,
+		name:'l3',
+		periods:18,
+		volume:2
+	}]	
+}];
+
+ module.exports = {ppg: ppg};
